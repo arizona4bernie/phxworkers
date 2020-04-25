@@ -22,7 +22,7 @@
 .tag{font-family: bureau-grot-wide, sans-serif;font-weight: 900;font-style: normal; color:#eaeaea; font-size: 15px; line-height:1em; padding-bottom:25px; z-index:0;}
 
 .tag a{color:#eaeaea; text-decoration:none;}
-.tag a:hover{-webkit-text-stroke: 1px #080F0F; -webkit-text-fill-color: #FFA686; text-decoration: line-through;}
+.tag a:hover{-webkit-text-stroke: 1px #080F0F; -webkit-text-fill-color: #FFA686; background-color:#000;}
         
 .big-text{font-size:75px; animation: fadeIn 8s ease forwards; font-family: bureau-grot-wide, sans-serif;font-weight: 900;font-style: normal; line-height:.9em;padding-bottom:20px; -webkit-text-stroke: 1px #eaeaea; -webkit-text-fill-color: #080F0F; z-index:0;}
 		.big-text a {color:#eaeaea; text-decoration:none;}
@@ -40,30 +40,33 @@
         
         .menu img:hover{transform:rotate(360deg); transform-style:flat; transition:9s; filter: invert(56%) sepia(42%) saturate(5953%) hue-rotate(296deg) brightness(90%) contrast(126%);}
         
-        @media screen and (max-width: 600px) {
-  .tag a {
-   font-size: 10px;
-  }
+        @media screen and (max-width: 650px) {
+  .
+            tag a {font-size: 10px;}
 
             .menu img {display:none;}
             
             .big-text{font-size:50px;}
             
+            .big-text1{font-size:50px;}
+            
+            .two-up .button {padding-top:5px; padding-bottom:5px; padding-left:10px; padding-right:10px; background-color:#000; font-size:10px;}
+            
 }
         
         .two-up{display:flex; justify-content: space-between; }
         
-        .two-up .button {background-color:#FFA686; color:#080f0f; padding-top:20px; padding-bottom:20px; padding-left:30px; padding-right:30px; border-radius:13px; margin-top:25px; font-family: bureau-grot-wide, sans-serif; font-weight: 900; font-style: normal; font-size:12px; line-height:1.6em; text-decoration: none;}
+        .two-up .button {background-color:#FFA686!important;color:#080f0f!important;padding-top:20px!important;padding-bottom:20px!important;padding-left:30px!important;padding-right:30px!important;border-radius:13px!important; margin-top:25px!important; font-family: bureau-grot-wide, sans-serif!important; font-weight: 900!important; font-style: normal!important; font-size:12px!important; line-height:1.6em!important; text-decoration: none!important;}
         
         .two-up .button:hover {background-color:#eaeaea;}
             
         .two-up li {padding-bottom:5px; line-height:1em;}    
         
-        .left {width:39%; color:#eaeaea; border: 1px solid #eaeaea; padding:35px; border-radius:25px;}
+        .left {width:98%; color:#eaeaea; border: 1px solid #eaeaea; padding:35px; border-radius:25px;}
 
         .left img {width:100%;}
         
-        .right {width:99%; border: 1px solid #eaeaea; padding:35px; border-radius: 25px;}
+        .right {width:36%; border: 1px solid #eaeaea; padding:35px; border-radius: 25px;}
         
         ul li {list-style: square;}
 
@@ -103,11 +106,20 @@
   background: #FFA686; /* Gecko Browsers */
 }
 		
+        
+        #can-form-area-phoenix-workers-alliance-newsletter-sign-up {background-color: #ffffff;}
+        
+        
+       #can-form-area-phoenix-workers-alliance-newsletter-sign-up h2 {text-transform: uppercase; font-family: bureau-grot-wide, sans-serif; font-weight: 900;font-style: normal; color:#080F0F; font-size: 25px; line-height:1em;}
+        
+        
+         #can-form-area-phoenix-workers-alliance-newsletter-sign-up h4 {display:none;}
+        
 	</style>
 	<link rel="stylesheet" href="https://use.typekit.net/bbz6ayv.css">
     <link rel="stylesheet" href="https://use.typekit.net/fvf2sbi.css">
     <script src='https://actionnetwork.org/widgets/v3/form/phoenix-workers-alliance-newsletter-sign-up?format=js&source=widget'></script>
-    <link href='https://actionnetwork.org/css/style-embed.css' rel='stylesheet' type='text/css' />
+   <link href='form.css' rel='stylesheet' type='text/css' />
 <script src="https://kit.fontawesome.com/6796fc4404.js" crossorigin="anonymous"></script>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -154,13 +166,39 @@ We seek above all to be an ally to organized labor, which means supporting strik
        <div class="two-up">
            <!--<div class="left"><img src="carlos-canvass.jpg"><br><br><br><div class="tag">CARLOS FOR CITY COUNCIL</div><div class="text" style="margin-top:-25px;"><ul><li>Organizing</li><li>Canvassing</li><li>Phonebanking</li></ul></div><br><a href="#" class="button">READ MORE</a></div>-->
             
-           <div class="right"><img src="azbernie-buttons.gif"><br><br><br><div class="tag">ARIZONA FOR BERNIE SANDERS 2020</div><div class="text" style="margin-top:-25px;"><ul><li>Organizing</li><li>Canvassing</li><li>Phonebanking & Textbanking</li><li>Events</li><li>Branding</li><li>Literature Development</li><li>Videography & Photography</li><li>Email Outreach</li><li>Website</li></ul></div><br><a href="bernie.html" class="button">SEE SOME OF THE WORK</a></div>
+           <div class="left">
+              <div class="tag">ARIZONA FOR BERNIE SANDERS 2020</div>	
+            <div class="text">The Phoenix Workers Alliance was started by organizers with the Arizona for Bernie 2020 coalition, which ran an extensive independent field and communications operations in support of Bernie Sanders's primary run. Bernie might have been defeated, but his ideas are more popular than ever. Our goal is to better connect Bernie's policy goals and the working-class institutions that can win them.<br><br>
+            
+            <ul><li>Organizing</li><li>Canvassing</li><li>Phonebanking & Textbanking</li><li>Events</li><li>Branding</li><li>Literature Development</li><li>Videography & Photography</li><li>Email Outreach</li><li>Website</li></ul>
+            
+            <img src="azbernie-buttons.gif"><br>
+            <img src="AZ4Bernie2020_Brochure.jpg"><br>
+            <img src="AZ4Bernie2020_OneSheeters.jpg"><br>
+            <img src="canvass-11.23-sm.jpg"><br>
+            <img src="political-revolution.jpg"><br>
+            <img src="signup-clipboard.jpg"><br>
+            <iframe src="https://player.vimeo.com/video/334182158" frameborder="0" allow="autoplay; fullscreen" style=" width: 100%; height: 41.625vw;" allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/360131151" frameborder="0" allow="autoplay; fullscreen" style=" width: 100%; height: 41.625vw;"  allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/366654945" frameborder="0" allow="autoplay; fullscreen" style=" width: 100%; height: 41.625vw;"  allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/361725019" frameborder="0" allow="autoplay; fullscreen" style=" width: 100%; height: 41.625vw;"  allowfullscreen></iframe>
+             <iframe src="https://player.vimeo.com/video/370713696" frameborder="0" allow="autoplay; fullscreen" style=" width: 100%; height: 41.625vw;"  allowfullscreen></iframe>
+            <iframe src="https://player.vimeo.com/video/376549582" frameborder="0" allow="autoplay; fullscreen" style=" width: 100%; height: 41.625vw;" allowfullscreen></iframe>
+              <iframe src="https://player.vimeo.com/video/409576866" frameborder="0" allow="autoplay; fullscreen" style=" width: 100%; height: 56.825vw;"  allowfullscreen></iframe>
+            
+            
+ </div>
+		</div>
+           
+           <!--<div class="right"><div class="tag">WORK WITH US</div><div class="text" style="margin-top:-25px;">We're ready to help support strikes, organize drives and union campaigns. We're also ready to help labor leaders in their bids for political office.</div><br><a href="#" class="button">EMAIL US</a></div>-->
+           
+	</div>
+               
+           </div>
         </div>
             
 
-		</div>
-	</div>
-    
+
         <div class="page1" id="join">
         	<div class="content" style="margin-top:-50px;">
         <div class="big-text1">JOIN US</div>	
